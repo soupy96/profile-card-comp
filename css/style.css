@@ -4,6 +4,13 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .profile-card {
   width: 450px;
   height: 400px;
@@ -58,12 +65,27 @@ body {
   color: hsl(0, 0%, 59%);
 }
 
+.city {
+  font-size: 15px;
+}
+
 .botbigbox {
   width: 100%;
   text-align: center;
-  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.botbigbox div {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
 }
 
 .botbigbox span {
-  width: 33%;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  font-size: 11px;
+  letter-spacing: 3px;
 }
